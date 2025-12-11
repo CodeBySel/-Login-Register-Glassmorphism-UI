@@ -1,4 +1,4 @@
-# Login & Register Glassmorphism UI
+# Login & Register  UI
 
 Bu proje **codebysell** tarafından üretilmiştir.
 
