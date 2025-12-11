@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop playsinline>
+            <source src="169981-842348755_small.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay"></div>
+    </div>
+
+    <div class="container">
+        <!-- Login Form -->
+        <div class="form-box login">
+            <div class="logo">
+                <i class="fas fa-layer-group"></i>
+            </div>
+            <h2>Hello Again</h2>
+            <p class="subtitle">Welcome back, you've been missed</p>
+            
+            <div class="social-login">
+                <button class="social-btn google"><i class="fab fa-google"></i></button>
+                <button class="social-btn telegram"><i class="fab fa-telegram-plane"></i></button>
+            </div>
+            
+            <div class="divider">
+                <span>Or</span>
+            </div>
+
+            <form id="loginForm">
+                <div class="input-group">
+                    <i class="far fa-envelope"></i>
+                    <input type="email" id="loginEmail" placeholder="name@example.com" required>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="loginPassword" placeholder="Your password" required>
+                    <i class="far fa-eye toggle-password"></i>
+                </div>
+                
+                <div class="forgot-pass">
+                    <a href="#">Forgot password?</a>
+                </div>
+
+                <button type="submit" class="btn-submit">Login</button>
+            </form>
+
+            <div class="switch-form">
+                <p>Don't have an account? <a href="#" id="showRegister">Sign Up</a></p>
+            </div>
+        </div>
+
+        <!-- Register Form (Hidden by default) -->
+        <div class="form-box register" style="display: none;">
+            <div class="logo">
+                <i class="fas fa-layer-group"></i>
+            </div>
+            <h2>Create Account</h2>
+            <p class="subtitle">Join us and explore the future</p>
+            
+            <div class="social-login">
+                <button class="social-btn google"><i class="fab fa-google"></i></button>
+                <button class="social-btn telegram"><i class="fab fa-telegram-plane"></i></button>
+            </div>
+            
+            <div class="divider">
+                <span>Or</span>
+            </div>
+
+            <form id="registerForm">
+                <div class="input-group">
+                    <i class="far fa-user"></i>
+                    <input type="text" id="regName" placeholder="Full Name" required>
+                </div>
+                <div class="input-group">
+                    <i class="far fa-envelope"></i>
+                    <input type="email" id="regEmail" placeholder="name@example.com" required>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="regPassword" placeholder="Create password" required>
+                    <i class="far fa-eye toggle-password"></i>
+                </div>
+
+                <button type="submit" class="btn-submit">Sign Up</button>
+            </form>
+
+            <div class="switch-form">
+                <p>Already have an account? <a href="#" id="showLogin">Login</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
