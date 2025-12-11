@@ -16,6 +16,7 @@ Modern, koyu temalı ve cam efektli (Glassmorphism) bir Giriş/Kayıt sayfası t
 Bu dosyaları bir web sunucusunda veya doğrudan tarayıcınızda `index.html` dosyasını açarak görüntüleyebilirsiniz.
 
 ---
+<img width="1891" height="893" alt="image" src="https://github.com/user-attachments/assets/a6719ef6-043e-4011-84ea-391798f0ef1f" />
 
 # English Description
 
